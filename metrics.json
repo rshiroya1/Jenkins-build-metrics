@@ -1,0 +1,31 @@
+{
+  "average_build_time_seconds": 148.7,
+  "failure_rate_percent": 50.0,
+  "total_builds": 6,
+  "flakiest_job": {
+    "job": "e2e-tests",
+    "failures": 2,
+    "total_builds": 2,
+    "failure_rate_percent": 100.0
+  },
+  "by_job": {
+    "backend-api": {
+      "total_builds": 2,
+      "failures": 1,
+      "failure_rate_percent": 50.0,
+      "avg_build_time_seconds": 107.5
+    },
+    "frontend": {
+      "total_builds": 2,
+      "failures": 0,
+      "failure_rate_percent": 0,
+      "avg_build_time_seconds": 48.5
+    },
+    "e2e-tests": {
+      "total_builds": 2,
+      "failures": 2,
+      "failure_rate_percent": 100.0,
+      "avg_build_time_seconds": 290.0
+    }
+  }
+}
