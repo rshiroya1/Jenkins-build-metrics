@@ -1,0 +1,8 @@
+[
+  { "job": "backend-api", "duration": 120000, "result": "SUCCESS" },
+  { "job": "backend-api", "duration": 95000, "result": "FAILURE" },
+  { "job": "frontend", "duration": 45000, "result": "SUCCESS" },
+  { "job": "frontend", "duration": 52000, "result": "SUCCESS" },
+  { "job": "e2e-tests", "duration": 300000, "result": "FAILURE" },
+  { "job": "e2e-tests", "duration": 280000, "result": "FAILURE" }
+]
